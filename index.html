@@ -388,15 +388,7 @@ if(isset($_GET['poll'])){
 		<div style=" text-align: center; " >   <header style=" font-weight: 700; color: #000000!important; " >You Can Also Vote For IPL 2023</header>   
      </div>
  
-	</div >	
-   <?php if(isset($_GET['name']) && !isset($_GET['share'])){ ?>
-    <a class="btn btn-success" href="https://api.whatsapp.com/send?text=Hii, i am <?php echo $_GET['name'] ?> Voted <?php echo$_GET['poll'] ?> and My Favourite Captain is <?php echo $_GET['captainpoll'] ?> For IPL 2023 You can Vote by Clicking On Blue Line
- <?php echo $url ?>?share=1&name=<?php echo$_GET['name']?>&favpoll=<?php echo $_GET['favpoll'] ?>&poll=<?php echo $_GET['poll'] ?>&captainpoll=<?php echo $_GET['captainpoll'] ?>" data-action="share/whatsapp/share">
-            <i class="fa fa-whatsapp"></i> Share
-        </a>
-
-        <a class="btn btn-primary" href="https://www.facebook.com/sharer/sharer.php?u=<?php echo $url ?>"  >
-            <i class="fa fa-facebook"></i> Share
+	
         </a>
         <?php }?>
         <?php if(isset($_GET['name']) && isset($_GET['share'])){ ?>
