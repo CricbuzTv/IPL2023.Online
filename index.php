@@ -355,11 +355,11 @@ $url = "http://gramsevaintercollege.in/ipl.php"
 		<div class="form-text text-muted" style=" text-align: center; " >
          <strong style="font-size: 32px;color: #fff;font-weight: bold;" id="Show-Name-www-howtext-in">
          <?php if(isset($_GET['name'])){
-            echo $_GET['name']."</br></br>";
-              }
-             else{ 
-                echo  "Name";
-                } ?> 
+            echo $_GET['name']."</br></br>
+              
+             
+               Name
+               
  
       </strong>
       <strong id="team" style="line-height: 30px; font-weight: 700; color: #fff; " >
@@ -367,24 +367,24 @@ $url = "http://gramsevaintercollege.in/ipl.php"
 
 <?php 
 if(isset($_GET['favpoll'])){
-            echo "Favourite Team - ".$_GET['favpoll']."</br>";
-                }
-             else{ 
-                  } ?> 
+            echo "Favourite Team - ".$_GET['favpoll']."</br>
+                
+             
+                  
 
 
 <?php 
 if(isset($_GET['captainpoll'])){
-             echo "Favourite Captain - ".$_GET['captainpoll']."</br>";
-               }
-             else{ 
-                  } ?> 
+             echo "Favourite Captain - ".$_GET['captainpoll']."</br>
+               
+             
+                 
                   <?php 
 if(isset($_GET['poll'])){
-               echo "Team will Win IPL Trophy 2023 - ".$_GET['poll'];
-              }
-             else{ 
-                  } ?> 
+               echo "Team will Win IPL Trophy 2023 - ".$_GET['poll']
+              
+             
+                  
       </strong>
        </div>
 		<div style=" text-align: center; " >   <header style=" font-weight: 700; color: #000000!important; " >You Can Also Vote For IPL 2023</header>   
